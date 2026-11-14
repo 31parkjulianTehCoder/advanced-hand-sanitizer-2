@@ -5,7 +5,7 @@ function LessonDisplay({ lesson }) {
     setHearts(3);
     return <>
       <h2>You ran out of hearts!</h2>
-      <button onClick={() => {setIndex(0)}>start over</button>
+      <button onClick={() => setIndex(0)}>start over</button>
     </>
   }
   if (lesson[index].type === "multiple-choice") {
