@@ -1,1 +1,25 @@
 
+{
+  "courseTitle": "Scamming",
+  "courseDesc": "How to avoid scamming",
+  "courseModules": [
+    {
+      "moduleTitle": "1st thing",
+      "moduleLessons": {
+        "thing": [
+          {
+            "question": "blah blah",
+            "type": "multiple-choice",
+            "choices": [],
+            "correct": 1,
+          },
+          {
+            "question": "blah blah",
+            "type": "open-answer",
+            "required-keywords": ["blah", "blah"]
+          }
+        ]
+      }
+    }
+  ]
+}
