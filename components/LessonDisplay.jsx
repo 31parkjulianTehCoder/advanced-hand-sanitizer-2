@@ -10,7 +10,7 @@ function LessonDisplay({ lesson }) {
   }
   console.log(lesson.length);
   console.log(index);
-  if (index === lesson.length){
+  if (index === lesson.length - 2){
     return <h1>Lesson complete!</h1>
   }
   if (lesson[index].type === "multiple-choice") {
