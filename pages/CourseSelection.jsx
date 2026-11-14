@@ -64,8 +64,10 @@ function CourseSelection(){
         setError(error.message);
         setLoading(false);
       });
-    console.log(data);
   }, []);
+  useEffect(() => {
+      console.log(data);
+  }, [data])
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error}</p>;
