@@ -79,7 +79,7 @@ function CourseSelection(){
       {data.map((item) => (
         <div key={Math.random()}>
           <h2>{item.courseTitle}</h2>
-          <h2>{item.courseDesc}</h2>
+          <p>{item.courseDesc}</p>
           <button onClick={()=>{
             setPage(<QuestionDisplay data={item}/>)
           }}>Go</button>
