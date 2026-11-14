@@ -4,8 +4,10 @@ function App(){
     setPage(n);
   }
   return <>
-    <h3>Nullpoint</h3>
-    <p>{window.rewards} points</p>
+    <div className="center">
+      <h3>Nullpoint{"  "}</h3>
+      <p>{"  "}{window.rewards} points</p>
+    </div>
     {page}
   </>;
 }
