@@ -9,8 +9,3 @@ body {
   margin: 4px;
   width: 50vw;
 }
- .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
