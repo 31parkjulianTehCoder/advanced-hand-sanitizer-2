@@ -12,7 +12,7 @@ function LessonDisplay({ lesson }) {
   console.log(index);
   if (lesson[index].type === "multiple-choice") {
     return (
-      <center>
+      <div class="center">
         <h2>{lesson[index].question}</h2>
         {hearts} Hearts
           {lesson[index].choices.map((n) => (
@@ -28,7 +28,7 @@ function LessonDisplay({ lesson }) {
                 {n}
               </button>
           ))}
-      </center>
+      </div>
     );
   } else if (lesson[index].type === undefined){
     window.rewards = (window.rewards || 0) + 200
