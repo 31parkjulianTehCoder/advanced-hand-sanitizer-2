@@ -12,7 +12,11 @@ function CourseSelection(){
         return response.json();
       })
       .then((json) => {
-        setData((ar) => [...ar, json]);
+        setData((ar) => {
+            let temp = [...ar];
+            temp.push(json);
+            return temp;
+          });
                 console.log(json);
         setLoading(false);
       })
@@ -28,7 +32,11 @@ function CourseSelection(){
           return response.json();
         })
         .then((json) => {
-          setData((ar) => [...ar, json]);
+          setData((ar) => {
+            let temp = [...ar];
+            temp.push(json);
+            return temp;
+          });
                   console.log(json);
           setLoading(false);
         })
@@ -44,7 +52,11 @@ function CourseSelection(){
         return response.json();
       })
       .then((json) => {
-        setData((ar) => [...ar, json]);
+        setData((ar) => {
+            let temp = [...ar];
+            temp.push(json);
+            return temp;
+          });
         console.log(json);
         setLoading(false);
       })
