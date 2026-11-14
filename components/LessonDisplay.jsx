@@ -35,6 +35,9 @@ function LessonDisplay({ lesson }) {
       </center>
     );
   } else if (lesson[index].type === undefined){
-    return <h1>Lesson complete!</h1>
+    window.rewards = (window.rewards || 0) + 200
+    return <center>
+    <h1>Lesson complete!</h1>
+    </center>
   }
 }
