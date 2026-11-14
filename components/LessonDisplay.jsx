@@ -8,6 +8,8 @@ function LessonDisplay({ lesson }) {
       <button onClick={() => {setIndex(0);setHearts(3);}}>start over</button>
     </center>
   }
+  console.log(lesson.length);
+  console.log(index);
   if (index === lesson.length){
     return <h1>Lesson complete!</h1>
   }
