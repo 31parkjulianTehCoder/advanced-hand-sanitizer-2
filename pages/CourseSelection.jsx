@@ -77,7 +77,7 @@ function CourseSelection(){
       <h1>Course selection</h1>
 
       {data.map((item) => (
-        <div key={Math.random()}>
+        <div claasName="desc-container" key={Math.random()}>
           <h2>{item.courseTitle}</h2>
           <p>{item.courseDesc}</p>
           <button onClick={()=>{
