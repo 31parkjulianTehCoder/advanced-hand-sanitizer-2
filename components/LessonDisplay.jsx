@@ -15,6 +15,7 @@ function LessonDisplay({ lesson }) {
       <center>
         <h2>{lesson[index].question}</h2>
         {hearts} Hearts
+        <br/>
           {lesson[index].choices.map((n) => (
               <><button
                 onClick={() => {
