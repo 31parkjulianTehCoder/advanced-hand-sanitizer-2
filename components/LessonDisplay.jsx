@@ -12,11 +12,11 @@ function LessonDisplay({ lesson }) {
   console.log(index);
   if (lesson[index].type === "multiple-choice") {
     return (
-      <div class="center">
+      <center>
         <h2>{lesson[index].question}</h2>
         {hearts} Hearts
           {lesson[index].choices.map((n) => (
-              <button
+              <><button
                 onClick={() => {
                   if (n === lesson[index].choices[lesson[index].correct]) {
                     setIndex((c) => c + 1);
@@ -26,9 +26,9 @@ function LessonDisplay({ lesson }) {
                 }}
               >
                 {n}
-              </button>
+              </button><br/></>
           ))}
-      </div>
+      </center>
     );
   } else if (lesson[index].type === undefined){
     window.rewards = (window.rewards || 0) + 200
