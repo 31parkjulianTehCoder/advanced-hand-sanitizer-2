@@ -15,9 +15,9 @@ function CourseSelection(){
         setData((ar) => {
             let temp = [...ar];
             temp.push(json);
+            console.log(temp);
             return temp;
           });
-                console.log(json);
         setLoading(false);
       })
       .catch((error) => {
@@ -35,9 +35,9 @@ function CourseSelection(){
           setData((ar) => {
             let temp = [...ar];
             temp.push(json);
+            console.log(temp);
             return temp;
           });
-                  console.log(json);
           setLoading(false);
         })
         .catch((error) => {
@@ -55,9 +55,9 @@ function CourseSelection(){
         setData((ar) => {
             let temp = [...ar];
             temp.push(json);
+          console.log(temp);
             return temp;
           });
-        console.log(json);
         setLoading(false);
       })
       .catch((error) => {
