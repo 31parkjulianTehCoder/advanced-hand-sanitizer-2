@@ -15,9 +15,7 @@ function LessonDisplay({ lesson }) {
       <center>
         <h2>{lesson[index].question}</h2>
         {hearts} Hearts
-        <ol>
           {lesson[index].choices.map((n) => (
-            <li>
               <button
                 onClick={() => {
                   if (n === lesson[index].choices[lesson[index].correct]) {
@@ -29,9 +27,7 @@ function LessonDisplay({ lesson }) {
               >
                 {n}
               </button>
-            </li>
           ))}
-        </ol>
       </center>
     );
   } else if (lesson[index].type === undefined){
