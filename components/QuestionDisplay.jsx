@@ -3,6 +3,7 @@ function QuestionDisplay({ data }) {
     <>
       <h1>{data.courseTitle}</h1>
       <button onClick={() => setPage(<CourseSelection/>)}>Back</button>
+      <hr />
       {data.courseModules.map((module) => (
         <>
           <h2>{module.moduleTitle}</h2>
