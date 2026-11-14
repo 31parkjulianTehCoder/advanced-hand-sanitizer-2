@@ -78,7 +78,7 @@ function CourseSelection(){
 
       {data.map((item) => (
         <div key={Math.random()}>
-          <h2>{item.courseName}</h2>
+          <h2>{item.courseTitle}</h2>
         </div>
       ))}
     </div>
