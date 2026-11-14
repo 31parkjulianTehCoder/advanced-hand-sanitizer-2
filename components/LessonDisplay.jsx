@@ -8,6 +8,9 @@ function LessonDisplay({ lesson }) {
       <button onClick={() => {setIndex(0);setHearts(3);}}>start over</button>
     </center>
   }
+  if (index = lesson.length){
+    return <h1>Lesson complete!</h1>
+  }
   if (lesson[index].type === "multiple-choice") {
     return (
       <center>
