@@ -7,7 +7,7 @@ function QuestionDisplay({ data }) {
           <ol>
             {Object.keys(module.moduleLessons).map((n) => (
               <li>
-                <button>{n}</button>
+                <button onClick={() => setPage(<LessonDisplay lesson={module.moduleLessons[n]}/>)}>{n}</button>
               </li>
             ))}
           </ol>
