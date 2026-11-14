@@ -13,6 +13,7 @@ function CourseSelection(){
       })
       .then((json) => {
         setData((ar) => [...ar, json]);
+                console.log(data);
         setLoading(false);
       })
       .catch((error) => {
@@ -28,6 +29,7 @@ function CourseSelection(){
         })
         .then((json) => {
           setData((ar) => [...ar, json]);
+                  console.log(data);
           setLoading(false);
         })
         .catch((error) => {
@@ -43,13 +45,13 @@ function CourseSelection(){
       })
       .then((json) => {
         setData((ar) => [...ar, json]);
+        console.log(data);
         setLoading(false);
       })
       .catch((error) => {
         setError(error.message);
         setLoading(false);
       });
-    console.log(data);
   }, []);
 
   if (loading) return <p>Loading...</p>;
