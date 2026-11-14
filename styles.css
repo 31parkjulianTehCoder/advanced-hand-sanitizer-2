@@ -21,3 +21,9 @@ button {
   padding: 4px;
   color: white;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
