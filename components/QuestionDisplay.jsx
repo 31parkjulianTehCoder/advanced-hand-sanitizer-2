@@ -14,7 +14,6 @@ function QuestionDisplay({ data }) {
                   <LessonDisplay lesson={module.moduleLessons[n]}/>
                 </>)}>{n}</button>
             ))}
-          </ol>
         </>
       ))}
     </>
