@@ -1,1 +1,1184 @@
 
+{
+  "courseTitle": "BOTS",
+  "courseDesc": "Learn what malicious bots are, how they work, the dangers they create, and how to protect yourself and your devices from automated cyberattacks.",
+  "courseModules": [
+    {
+      "moduleTitle": "1. Understanding Malicious Bots",
+      "moduleLessons": {
+        "What Are Malicious Bots?": [
+          {
+            "question": "What is a bot?",
+            "type": "multiple-choice",
+            "choices": [
+              "An automated program that performs tasks",
+              "A physical robot that repairs computers",
+              "A type of computer virus",
+              "A human who works online"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What makes a bot malicious?",
+            "type": "multiple-choice",
+            "choices": [
+              "It operates automatically",
+              "It is designed to perform harmful or unwanted actions",
+              "It connects to the internet",
+              "It is used by a company"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Are all bots malicious?",
+            "type": "multiple-choice",
+            "choices": [
+              "Yes, every bot is dangerous",
+              "No, many bots perform useful and legitimate tasks",
+              "Yes, but only on social media",
+              "No, because bots cannot cause harm"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is one example of a legitimate bot?",
+            "type": "multiple-choice",
+            "choices": [
+              "A bot that steals passwords",
+              "A bot that floods a website with requests",
+              "A search engine crawler that indexes websites",
+              "A bot that sends fraudulent messages"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Why are bots useful to attackers?",
+            "type": "multiple-choice",
+            "choices": [
+              "They can automate tasks and perform them at large scale",
+              "They make computers impossible to hack",
+              "They automatically repair damaged websites",
+              "They prevent people from accessing the internet"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is automation?",
+            "type": "multiple-choice",
+            "choices": [
+              "Manually completing every computer task",
+              "Using technology to perform tasks automatically",
+              "Turning off a computer permanently",
+              "Deleting all online accounts"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "How can malicious bots affect ordinary internet users?",
+            "type": "multiple-choice",
+            "choices": [
+              "They can never affect ordinary users",
+              "They can steal account information, spread scams, or disrupt services",
+              "They only affect large technology companies",
+              "They only damage computer hardware"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is a botnet?",
+            "type": "multiple-choice",
+            "choices": [
+              "A network of connected websites",
+              "A group of compromised devices controlled together",
+              "A type of secure password",
+              "A legitimate search engine"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is a device that has been infected and added to a botnet sometimes called?",
+            "type": "multiple-choice",
+            "choices": [
+              "A zombie device",
+              "A firewall",
+              "A password manager",
+              "A search crawler"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why might someone not realize their device is part of a botnet?",
+            "type": "multiple-choice",
+            "choices": [
+              "The device may continue to work normally while being misused in the background",
+              "Botnets only use devices that are turned off",
+              "Botnets always display a warning message",
+              "A botnet makes every device visibly change color"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is the main difference between a human-operated attack and a bot attack?",
+            "type": "multiple-choice",
+            "choices": [
+              "Bot attacks can automate repetitive actions at very large scale",
+              "Human attacks always cause more damage",
+              "Bot attacks cannot connect to the internet",
+              "There is no difference in how they operate"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Can malicious bots operate without someone manually controlling every action?",
+            "type": "multiple-choice",
+            "choices": [
+              "No, every action requires a person",
+              "Yes, they can automatically follow programmed instructions",
+              "Only when the internet is disconnected",
+              "Only on mobile phones"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Why might cybercriminals use many bots instead of just one?",
+            "type": "multiple-choice",
+            "choices": [
+              "To make attacks larger and harder to stop",
+              "To reduce the speed of their attacks",
+              "To make their activity completely harmless",
+              "To avoid using computers"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is one way malicious bots can be distributed?",
+            "type": "multiple-choice",
+            "choices": [
+              "Through compromised devices and malware infections",
+              "Only through official app stores",
+              "Only through computer keyboards",
+              "Through printed books"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Can a malicious bot target a website without directly infecting the visitor's computer?",
+            "type": "multiple-choice",
+            "choices": [
+              "Yes, it can send automated requests to the website",
+              "No, every bot must infect every visitor",
+              "Only if the website is offline",
+              "Only if the visitor downloads a file"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Explain what a malicious bot is and how it differs from a legitimate bot.",
+            "type": "open-answer",
+            "required-keywords": [
+              "automated",
+              "program",
+              "harmful",
+              "legitimate"
+            ]
+          },
+          {
+            "question": "What is a botnet, and why can it be dangerous?",
+            "type": "open-answer",
+            "required-keywords": [
+              "network",
+              "devices",
+              "controlled",
+              "attack"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "moduleTitle": "2. Three Common Types of Malicious Bots",
+      "moduleLessons": {
+        "DDoS Bots": [
+          {
+            "question": "What does DDoS stand for?",
+            "type": "multiple-choice",
+            "choices": [
+              "Distributed Denial of Service",
+              "Digital Data Operating System",
+              "Direct Device Online Security",
+              "Distributed Data Operating Software"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is the main goal of a DDoS attack?",
+            "type": "multiple-choice",
+            "choices": [
+              "To make a website or online service unavailable",
+              "To improve a website's speed",
+              "To create stronger passwords",
+              "To organize files on a computer"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "How do DDoS bots commonly help carry out an attack?",
+            "type": "multiple-choice",
+            "choices": [
+              "By sending large numbers of requests from many devices",
+              "By repairing the target website",
+              "By deleting the internet",
+              "By making every visitor log out"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why is a DDoS attack called distributed?",
+            "type": "multiple-choice",
+            "choices": [
+              "Because traffic comes from multiple devices or sources",
+              "Because it only affects one computer",
+              "Because it is spread across different passwords",
+              "Because it is performed by one person manually"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What might happen to a website during a successful DDoS attack?",
+            "type": "multiple-choice",
+            "choices": [
+              "It may become extremely slow or unavailable",
+              "It automatically becomes more secure",
+              "It gains unlimited storage",
+              "It stops needing a server"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why can DDoS attacks be difficult to stop?",
+            "type": "multiple-choice",
+            "choices": [
+              "They can involve large amounts of traffic from many sources",
+              "They only use one easily identifiable computer",
+              "They do not use internet connections",
+              "They always happen when a website is offline"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Who can be affected by a DDoS attack?",
+            "type": "multiple-choice",
+            "choices": [
+              "Websites, businesses, organizations, and their users",
+              "Only people who own servers",
+              "Only social media influencers",
+              "Nobody outside the attacker's computer"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is one possible consequence of a DDoS attack on an online store?",
+            "type": "multiple-choice",
+            "choices": [
+              "Customers may be unable to shop or complete purchases",
+              "Products automatically become cheaper",
+              "The store receives unlimited new customers",
+              "The store no longer needs internet access"
+            ],
+            "correct": 0
+          }
+        ],
+        "Spam Bots": [
+          {
+            "question": "What is a spam bot?",
+            "type": "multiple-choice",
+            "choices": [
+              "A bot that automatically sends or posts unwanted messages",
+              "A bot that protects passwords",
+              "A bot that repairs websites",
+              "A bot that improves internet connections"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Where might spam bots operate?",
+            "type": "multiple-choice",
+            "choices": [
+              "Email, social media, websites, and messaging platforms",
+              "Only inside computer processors",
+              "Only on offline computers",
+              "Only in government buildings"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What might a spam bot send?",
+            "type": "multiple-choice",
+            "choices": [
+              "Unwanted advertisements, scams, or malicious links",
+              "Only personal messages from friends",
+              "Only official security updates",
+              "Only computer repair instructions"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why do attackers use spam bots?",
+            "type": "multiple-choice",
+            "choices": [
+              "To spread messages to large numbers of people automatically",
+              "To make email inboxes safer",
+              "To stop people from receiving messages",
+              "To improve website privacy"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is one danger of clicking a link sent by a spam bot?",
+            "type": "multiple-choice",
+            "choices": [
+              "It could lead to a phishing page or malware download",
+              "It always makes your device faster",
+              "It automatically verifies your identity",
+              "It permanently protects your account"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What might a spam bot do on a social media platform?",
+            "type": "multiple-choice",
+            "choices": [
+              "Post repeated advertisements or fake comments",
+              "Automatically verify every user",
+              "Prevent all fake accounts",
+              "Remove every suspicious website"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why can spam bots make it difficult to use an online platform?",
+            "type": "multiple-choice",
+            "choices": [
+              "They can fill discussions and inboxes with unwanted content",
+              "They make all messages disappear",
+              "They prevent users from creating passwords",
+              "They turn every account into an administrator"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is one sign that a social media account might be automated spam?",
+            "type": "multiple-choice",
+            "choices": [
+              "It repeatedly posts identical or suspicious messages",
+              "It has a profile picture",
+              "It follows a friend",
+              "It posts an occasional photograph"
+            ],
+            "correct": 0
+          }
+        ],
+        "Credential Stuffing Bots": [
+          {
+            "question": "What is credential stuffing?",
+            "type": "multiple-choice",
+            "choices": [
+              "Using stolen username-and-password combinations to try to access accounts",
+              "Creating a new password for every website",
+              "Storing passwords in a password manager",
+              "Encrypting files to protect them"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Where do attackers often get the stolen credentials used in credential stuffing?",
+            "type": "multiple-choice",
+            "choices": [
+              "Data breaches and stolen account databases",
+              "Official password safety guides",
+              "Public weather reports",
+              "Computer instruction manuals"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why does credential stuffing sometimes work?",
+            "type": "multiple-choice",
+            "choices": [
+              "People reuse the same passwords across different websites",
+              "All websites share one password",
+              "Passwords never expire",
+              "Websites automatically reveal passwords"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "How do credential stuffing bots help attackers?",
+            "type": "multiple-choice",
+            "choices": [
+              "They automatically test stolen login combinations at scale",
+              "They create secure passwords for victims",
+              "They block unauthorized logins",
+              "They repair compromised accounts"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What might happen if a credential stuffing attack succeeds?",
+            "type": "multiple-choice",
+            "choices": [
+              "An attacker may gain access to someone's account",
+              "The victim automatically gets a new password",
+              "The account becomes impossible to access",
+              "The website deletes all user information"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which account could be at risk from credential stuffing?",
+            "type": "multiple-choice",
+            "choices": [
+              "An email, banking, shopping, or social media account",
+              "Only an account with no password",
+              "Only an offline notebook",
+              "Only an account owned by a website developer"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why is using the same password on many websites dangerous?",
+            "type": "multiple-choice",
+            "choices": [
+              "One stolen password may unlock multiple accounts",
+              "It makes every account more secure",
+              "It prevents data breaches",
+              "It makes passwords impossible to guess"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What security feature can make stolen passwords less useful to attackers?",
+            "type": "multiple-choice",
+            "choices": [
+              "Multi-factor authentication",
+              "Using the same password everywhere",
+              "Sharing passwords with friends",
+              "Turning off account notifications"
+            ],
+            "correct": 0
+          }
+        ],
+        "Comparing the Three Types": [
+          {
+            "question": "Which type of bot is mainly associated with overwhelming a website with traffic?",
+            "type": "multiple-choice",
+            "choices": [
+              "DDoS bot",
+              "Spam bot",
+              "Credential stuffing bot",
+              "Search engine crawler"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which type of bot is mainly associated with sending unwanted messages?",
+            "type": "multiple-choice",
+            "choices": [
+              "Spam bot",
+              "DDoS bot",
+              "Credential stuffing bot",
+              "Backup bot"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which type of bot is mainly associated with trying stolen login information?",
+            "type": "multiple-choice",
+            "choices": [
+              "Credential stuffing bot",
+              "Spam bot",
+              "DDoS bot",
+              "Search engine crawler"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "A website receives huge amounts of automated traffic and becomes unavailable. Which attack is most likely happening?",
+            "type": "multiple-choice",
+            "choices": [
+              "DDoS attack",
+              "Credential stuffing attack",
+              "Spam campaign",
+              "Password reset"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "An online platform is flooded with fake comments advertising suspicious websites. What is most likely responsible?",
+            "type": "multiple-choice",
+            "choices": [
+              "Spam bots",
+              "DDoS bots",
+              "Credential stuffing bots",
+              "Legitimate search crawlers"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "A user's account receives many login attempts using combinations of previously leaked passwords. What is this likely to be?",
+            "type": "multiple-choice",
+            "choices": [
+              "Credential stuffing",
+              "A DDoS attack",
+              "A spam campaign",
+              "A software update"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Can the three types of malicious bots be used together in a larger cyberattack?",
+            "type": "multiple-choice",
+            "choices": [
+              "Yes, attackers can combine different automated activities",
+              "No, they cannot operate at the same time",
+              "Only spam bots can work with other bots",
+              "No, because all bots have identical purposes"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Explain the difference between DDoS bots, spam bots, and credential stuffing bots.",
+            "type": "open-answer",
+            "required-keywords": [
+              "traffic",
+              "messages",
+              "passwords",
+              "accounts"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "moduleTitle": "3. Why You Should Be Concerned About Malicious Bots",
+      "moduleLessons": {
+        "The Consequences of Malicious Bots": [
+          {
+            "question": "Why should ordinary people be concerned about malicious bots?",
+            "type": "multiple-choice",
+            "choices": [
+              "They can threaten accounts, personal information, and access to online services",
+              "They only affect large technology companies",
+              "They cannot affect people who use the internet",
+              "They only operate on government networks"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What could happen if a bot successfully accesses someone's email account?",
+            "type": "multiple-choice",
+            "choices": [
+              "The attacker could access private messages and potentially reset other account passwords",
+              "The account becomes permanently safer",
+              "The attacker automatically loses internet access",
+              "Nothing, because email accounts contain no useful information"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "How can malicious bots contribute to financial loss?",
+            "type": "multiple-choice",
+            "choices": [
+              "By helping attackers steal accounts, commit fraud, or disrupt businesses",
+              "By automatically refunding every purchase",
+              "By preventing all online transactions",
+              "By making every website free"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why might a business be seriously affected by a DDoS attack?",
+            "type": "multiple-choice",
+            "choices": [
+              "Customers may be unable to access its services, causing lost revenue",
+              "The business automatically gains more customers",
+              "Its products become unavailable everywhere permanently",
+              "The attack improves its website performance"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "How can spam bots put people at risk?",
+            "type": "multiple-choice",
+            "choices": [
+              "They can distribute phishing links and fraudulent messages",
+              "They automatically remove suspicious emails",
+              "They prevent all online scams",
+              "They make passwords stronger"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is one possible result of credential stuffing against a banking account?",
+            "type": "multiple-choice",
+            "choices": [
+              "Unauthorized access that could lead to financial harm",
+              "Automatic protection against fraud",
+              "A guaranteed increase in account security",
+              "The bank automatically closes every account"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "How can malicious bots affect a company's reputation?",
+            "type": "multiple-choice",
+            "choices": [
+              "Customers may lose trust if services are disrupted or accounts are compromised",
+              "They always improve customer satisfaction",
+              "They automatically increase positive reviews",
+              "They prevent customers from discussing the company"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why can bot attacks be expensive for organizations?",
+            "type": "multiple-choice",
+            "choices": [
+              "They may require security investigations, recovery work, and service improvements",
+              "They automatically pay the organization's bills",
+              "They eliminate the need for technology",
+              "They only affect free services"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Can malicious bots be used to manipulate online information?",
+            "type": "multiple-choice",
+            "choices": [
+              "Yes, they can generate fake comments, engagement, and misleading activity",
+              "No, bots cannot post online",
+              "Only human users can create fake engagement",
+              "No, because every online account is verified"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is fake engagement?",
+            "type": "multiple-choice",
+            "choices": [
+              "Artificial likes, comments, views, or followers created to mislead people",
+              "A real conversation between friends",
+              "A secure login process",
+              "A software update"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why might attackers want to steal online accounts?",
+            "type": "multiple-choice",
+            "choices": [
+              "To steal information, impersonate users, commit fraud, or access other accounts",
+              "To help users remember passwords",
+              "To make every account private",
+              "To improve website design"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Can malicious bots affect services that people depend on every day?",
+            "type": "multiple-choice",
+            "choices": [
+              "Yes, attacks can disrupt websites, communication, shopping, and other online services",
+              "No, they only affect unused websites",
+              "Only if a person downloads a bot",
+              "No, because online services cannot be attacked"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why can a botnet be more dangerous than a single compromised device?",
+            "type": "multiple-choice",
+            "choices": [
+              "Many devices can act together and create a much larger impact",
+              "A botnet can only affect one website",
+              "It automatically removes malware",
+              "It prevents attackers from communicating"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is one reason malicious bot activity can be difficult to investigate?",
+            "type": "multiple-choice",
+            "choices": [
+              "Activity may come from many devices and locations",
+              "Bots always reveal the attacker's identity",
+              "Bots never leave any network activity",
+              "Every bot uses the same device"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why should people take suspicious automated activity seriously even if they have not lost money?",
+            "type": "multiple-choice",
+            "choices": [
+              "It may be an early sign of attempted account compromise or fraud",
+              "It proves that every account is already stolen",
+              "It means the internet is permanently broken",
+              "It guarantees that no harm can happen"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Describe two ways malicious bots can harm individuals and two ways they can harm businesses.",
+            "type": "open-answer",
+            "required-keywords": [
+              "accounts",
+              "information",
+              "services",
+              "financial"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "moduleTitle": "4. Recognizing Malicious Bot Activity",
+      "moduleLessons": {
+        "Warning Signs and Suspicious Activity": [
+          {
+            "question": "Which of the following could be a warning sign of a credential stuffing attack?",
+            "type": "multiple-choice",
+            "choices": [
+              "Repeated failed login attempts from unfamiliar locations or devices",
+              "A normal successful login from your usual device",
+              "Receiving a regular software update",
+              "Changing your profile picture"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What might indicate that a website is experiencing a DDoS attack?",
+            "type": "multiple-choice",
+            "choices": [
+              "Unusually slow performance or widespread service unavailability",
+              "A normal website loading quickly",
+              "A scheduled maintenance announcement",
+              "A new article appearing on the homepage"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What could indicate spam bot activity in an online discussion?",
+            "type": "multiple-choice",
+            "choices": [
+              "Many repetitive comments containing suspicious links",
+              "A few genuine comments from different users",
+              "A moderator answering a question",
+              "A user posting an original photograph"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why should you be suspicious of messages sent by accounts with repetitive behavior?",
+            "type": "multiple-choice",
+            "choices": [
+              "They may be automated accounts distributing spam or scams",
+              "Every repetitive message is guaranteed to be safe",
+              "It proves the account belongs to a company",
+              "It means the message has been verified"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What should you do if you receive an unexpected login notification?",
+            "type": "multiple-choice",
+            "choices": [
+              "Check the account through its official app or website and secure it if necessary",
+              "Ignore it no matter what",
+              "Click any link in the notification immediately",
+              "Share your password with the sender"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What could repeated password reset emails that you did not request indicate?",
+            "type": "multiple-choice",
+            "choices": [
+              "Someone may be attempting to access or interfere with your account",
+              "Your password is guaranteed to be stolen",
+              "Your device has automatically been repaired",
+              "The emails are always harmless advertisements"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why is it important to distinguish between a legitimate bot and a malicious bot?",
+            "type": "multiple-choice",
+            "choices": [
+              "Not all automated activity is harmful, so context matters",
+              "Every bot should be treated as a criminal",
+              "Legitimate bots cannot be identified",
+              "Only malicious bots use automation"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "A website suddenly receives thousands of requests and stops responding. What should its administrators investigate?",
+            "type": "multiple-choice",
+            "choices": [
+              "A possible DDoS attack or other unusual traffic surge",
+              "A normal password change",
+              "A user's profile picture",
+              "A harmless email attachment"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "An account posts the same promotional link hundreds of times. What is the most likely explanation?",
+            "type": "multiple-choice",
+            "choices": [
+              "Automated spam activity",
+              "A normal software update",
+              "A password manager",
+              "A legitimate security alert"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "You receive an alert about a login attempt from an unfamiliar device. What is the safest first step?",
+            "type": "multiple-choice",
+            "choices": [
+              "Access the service directly through its official website or app to investigate",
+              "Reply to the alert with your password",
+              "Click a suspicious link to cancel the login",
+              "Post the alert publicly with your account details"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why might a sudden increase in failed login attempts be important?",
+            "type": "multiple-choice",
+            "choices": [
+              "It could indicate automated attempts to guess or reuse credentials",
+              "It proves that your account has no password",
+              "It means your device is fully protected",
+              "It always happens after a software update"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Can one unusual event prove that a malicious bot is responsible?",
+            "type": "multiple-choice",
+            "choices": [
+              "No, unusual activity should be investigated in context",
+              "Yes, every unusual event is caused by a bot",
+              "Yes, if the website is slow",
+              "No, because bots never create unusual activity"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why should organizations monitor traffic and login patterns?",
+            "type": "multiple-choice",
+            "choices": [
+              "To identify unusual behavior and investigate possible attacks",
+              "To make all accounts public",
+              "To prevent users from accessing their services",
+              "To automatically delete all customer information"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What information might help a security team investigate suspicious bot activity?",
+            "type": "multiple-choice",
+            "choices": [
+              "Relevant timestamps, traffic patterns, login records, and security logs",
+              "Only the website's logo",
+              "The personal opinions of random users",
+              "The color of a computer screen"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Explain three warning signs that could indicate malicious bot activity.",
+            "type": "open-answer",
+            "required-keywords": [
+              "login",
+              "traffic",
+              "spam",
+              "unusual"
+            ]
+          },
+          {
+            "question": "Why is unusual online activity not always proof of a cyberattack?",
+            "type": "open-answer",
+            "required-keywords": [
+              "legitimate",
+              "context",
+              "investigate"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "moduleTitle": "5. Preventing and Responding to Malicious Bots",
+      "moduleLessons": {
+        "Protecting Yourself and Your Accounts": [
+          {
+            "question": "What is one of the best ways to protect yourself from credential stuffing?",
+            "type": "multiple-choice",
+            "choices": [
+              "Use a unique password for every account",
+              "Use the same password everywhere",
+              "Share passwords with friends",
+              "Choose very short passwords"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why should you enable multi-factor authentication?",
+            "type": "multiple-choice",
+            "choices": [
+              "It adds another layer of protection beyond your password",
+              "It makes every password public",
+              "It prevents all internet traffic",
+              "It removes the need for account security"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is a password manager useful for?",
+            "type": "multiple-choice",
+            "choices": [
+              "Creating and storing strong, unique passwords",
+              "Sending passwords to strangers",
+              "Automatically posting online advertisements",
+              "Disabling account security"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What should you do if you receive suspicious messages from a spam bot?",
+            "type": "multiple-choice",
+            "choices": [
+              "Avoid clicking links and report or block the account",
+              "Click every link to see where it goes",
+              "Share the message with all your contacts",
+              "Send the account your login information"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What should you do if you suspect someone has accessed your account?",
+            "type": "multiple-choice",
+            "choices": [
+              "Change your password using the official service and review account security",
+              "Ignore the activity",
+              "Send your password to the person who contacted you",
+              "Delete all your security notifications"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why is it important to keep software and devices updated?",
+            "type": "multiple-choice",
+            "choices": [
+              "Updates can fix security vulnerabilities that attackers may exploit",
+              "Updates guarantee that no attack can ever happen",
+              "Updates make passwords unnecessary",
+              "Updates prevent every website from using bots"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What should you do if your device may have been infected and added to a botnet?",
+            "type": "multiple-choice",
+            "choices": [
+              "Disconnect it from the network if appropriate and use trusted security tools or professional help",
+              "Ignore all warnings",
+              "Install random software advertised in a message",
+              "Share the device with more people"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why should you avoid downloading software from untrusted websites?",
+            "type": "multiple-choice",
+            "choices": [
+              "It may contain malware that could compromise your device",
+              "It always improves device security",
+              "It automatically removes malicious bots",
+              "It guarantees faster internet access"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is one way a website can defend itself against DDoS attacks?",
+            "type": "multiple-choice",
+            "choices": [
+              "Use DDoS protection and traffic filtering services",
+              "Share its administrator password publicly",
+              "Disable every security feature",
+              "Allow unlimited requests from every source"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is rate limiting?",
+            "type": "multiple-choice",
+            "choices": [
+              "Restricting how many requests a user or system can make in a period of time",
+              "Allowing unlimited requests from every device",
+              "Changing a website's background color",
+              "Removing all user accounts"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "How can a website reduce automated spam?",
+            "type": "multiple-choice",
+            "choices": [
+              "Use moderation, spam filtering, and appropriate bot-detection measures",
+              "Allow every message without review",
+              "Publish users' passwords",
+              "Disable all account protections"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is a CAPTCHA commonly used for?",
+            "type": "multiple-choice",
+            "choices": [
+              "Helping distinguish human users from automated activity",
+              "Storing passwords in plain text",
+              "Making websites impossible to access",
+              "Automatically repairing infected devices"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Does CAPTCHA stop every malicious bot?",
+            "type": "multiple-choice",
+            "choices": [
+              "No, it is one defensive measure and can sometimes be bypassed",
+              "Yes, it stops every automated attack",
+              "Yes, it eliminates the need for all security",
+              "No, because it only works offline"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What should an organization do when it detects suspicious automated login attempts?",
+            "type": "multiple-choice",
+            "choices": [
+              "Investigate the activity and apply appropriate protections such as rate limits and stronger authentication",
+              "Publish its user passwords",
+              "Ignore every login alert",
+              "Disable all account security"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why is it useful to report malicious bot accounts to a platform?",
+            "type": "multiple-choice",
+            "choices": [
+              "The platform may investigate and remove accounts violating its rules",
+              "It automatically deletes the entire internet",
+              "It guarantees that the attacker will be identified",
+              "It makes the account more trustworthy"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What should you do if you receive a security alert about a suspicious login?",
+            "type": "multiple-choice",
+            "choices": [
+              "Verify it through the official service and secure your account if needed",
+              "Send your password to the alert sender",
+              "Click an unfamiliar link without checking it",
+              "Ignore it permanently"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why should you review active sessions on important accounts?",
+            "type": "multiple-choice",
+            "choices": [
+              "You may find unfamiliar devices or sessions that should be signed out",
+              "It automatically removes all malware from your computer",
+              "It makes passwords unnecessary",
+              "It prevents every DDoS attack"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is the safest approach if a website you use is unavailable during a possible DDoS attack?",
+            "type": "multiple-choice",
+            "choices": [
+              "Wait for official updates and avoid suspicious links claiming to restore access",
+              "Download an unknown repair program",
+              "Share your login information with strangers",
+              "Repeatedly enter your password on unofficial websites"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "A friend tells you to use the same password on every website because it is easier to remember. What should you explain?",
+            "type": "multiple-choice",
+            "choices": [
+              "Password reuse makes credential stuffing more dangerous",
+              "Password reuse prevents data breaches",
+              "All websites automatically share passwords",
+              "Unique passwords are less secure"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which statement best describes protection against malicious bots?",
+            "type": "multiple-choice",
+            "choices": [
+              "Multiple security measures work together to reduce risk",
+              "One security tool can stop every bot forever",
+              "Only large companies need protection",
+              "There is nothing anyone can do"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What should you do if your account has been compromised and you reused its password elsewhere?",
+            "type": "multiple-choice",
+            "choices": [
+              "Change that password on every other account where it was reused",
+              "Keep using the same password",
+              "Share the password with friends",
+              "Turn off multi-factor authentication"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Explain three ways individuals can protect themselves from malicious bots.",
+            "type": "open-answer",
+            "required-keywords": [
+              "unique",
+              "passwords",
+              "authentication",
+              "updates"
+            ]
+          },
+          {
+            "question": "A website is receiving suspicious traffic, and users are reporting repeated spam messages. What steps could the website administrators take?",
+            "type": "open-answer",
+            "required-keywords": [
+              "monitor",
+              "filter",
+              "rate",
+              "report"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
+
