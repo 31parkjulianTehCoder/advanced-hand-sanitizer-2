@@ -73,9 +73,9 @@ function CourseSelection(){
   if (error) return <p>Error: {error}</p>;
 
   return (
-    <div className="center">
+    <center>
       <h1>Course selection</h1>
-
+    
       {data.map((item) => (
         <div className="desc-container" key={Math.random()}>
           <h2>{item.courseTitle}</h2>
@@ -85,6 +85,6 @@ function CourseSelection(){
           }}>Go</button>
         </div>
       ))}
-    </div>
+    </center>
   );
 }
