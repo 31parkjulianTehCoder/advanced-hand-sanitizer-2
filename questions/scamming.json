@@ -1,22 +1,1019 @@
-
 {
   "courseTitle": "Scamming",
-  "courseDesc": "How to avoid scamming",
+  "courseDesc": "Learn how scams work, recognize imposter scams, understand their dangers, and protect yourself from fraud.",
   "courseModules": [
     {
-      "moduleTitle": "1st thing",
+      "moduleTitle": "1. Understanding Scams",
       "moduleLessons": {
-        "thing": [
+        "What Are Scams?": [
           {
-            "question": "blah blah",
+            "question": "What is a scam?",
             "type": "multiple-choice",
-            "choices": [],
-            "correct": 1,
+            "choices": [
+              "A trick designed to deceive someone for personal gain",
+              "A normal business transaction",
+              "A harmless joke",
+              "A government service"
+            ],
+            "correct": 0
           },
           {
-            "question": "blah blah",
+            "question": "What is the main purpose of a scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "To help people learn",
+              "To entertain people",
+              "To benefit the scammer through money, information, or other rewards",
+              "To protect someone's privacy"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Who is responsible for creating scams?",
+            "type": "multiple-choice",
+            "choices": [
+              "Only hackers",
+              "People or groups trying to deceive others for personal gain",
+              "Only government employees",
+              "Banks and financial institutions"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What might a scammer want from a victim?",
+            "type": "multiple-choice",
+            "choices": [
+              "Money",
+              "Personal information",
+              "Access to accounts or systems",
+              "All of the above"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Where can scams happen?",
+            "type": "multiple-choice",
+            "choices": [
+              "Only on the internet",
+              "Only through phone calls",
+              "Anywhere, including online and in person",
+              "Only in large cities"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "When can someone become a target of a scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "Only during holidays",
+              "At any time",
+              "Only at night",
+              "Only when using social media"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which of these is an example of a scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "A friend returning borrowed money",
+              "A store offering a real discount",
+              "Someone pretending to be from your bank to steal your password",
+              "A teacher assigning homework"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What does a scammer usually try to make a victim do?",
+            "type": "multiple-choice",
+            "choices": [
+              "Trust them and take an action that benefits the scammer",
+              "Ignore all advertisements",
+              "Learn about cybersecurity",
+              "Contact the police"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Are all scams committed by people who are physically nearby?",
+            "type": "multiple-choice",
+            "choices": [
+              "Yes, always",
+              "Only in large cities",
+              "Only if money is involved",
+              "No, scammers can operate from anywhere in the world"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "What is the difference between a scam and an honest mistake?",
+            "type": "multiple-choice",
+            "choices": [
+              "There is no difference",
+              "A scam involves deliberate deception to gain something",
+              "A scam always involves stealing cash",
+              "An honest mistake is always illegal"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Why might scammers pretend to be someone else?",
+            "type": "multiple-choice",
+            "choices": [
+              "To make people trust them more easily",
+              "To improve their reputation",
+              "To provide better customer service",
+              "To protect the victim"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which of these is a common characteristic of a scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "Clear and independently verifiable information",
+              "Encouraging you to take your time",
+              "Deception, manipulation, or misleading claims",
+              "A guaranteed legitimate result"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Can a scammer be someone pretending to represent a legitimate organization?",
+            "type": "multiple-choice",
+            "choices": [
+              "No, organizations cannot be impersonated",
+              "Only if the organization is a bank",
+              "Only through email",
+              "Yes, scammers frequently impersonate trusted organizations"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "What does financial fraud involve?",
+            "type": "multiple-choice",
+            "choices": [
+              "Saving money responsibly",
+              "Deceiving someone to obtain money or financial benefits",
+              "Paying a legitimate bill",
+              "Opening a savings account"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which statement about scams is TRUE?",
+            "type": "multiple-choice",
+            "choices": [
+              "Only careless people get scammed",
+              "Scams only happen to wealthy people",
+              "Anyone can become a target of a scam",
+              "Scams always contain spelling mistakes"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "In your own words, explain what a scam is and what a scammer wants.",
             "type": "open-answer",
-            "required-keywords": ["blah", "blah"]
+            "required-keywords": [
+              "deception",
+              "trick",
+              "money",
+              "information",
+              "personal gain"
+            ]
+          },
+          {
+            "question": "Who can become a victim of a scam, and where can scams happen?",
+            "type": "open-answer",
+            "required-keywords": [
+              "anyone",
+              "anywhere",
+              "online",
+              "in person"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "moduleTitle": "2. Imposter Scams",
+      "moduleLessons": {
+        "How Imposter Scams Work": [
+          {
+            "question": "What is an imposter scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "A scam in which someone pretends to be a trusted person or organization",
+              "A scam involving only stolen credit cards",
+              "A legitimate government investigation",
+              "A harmless online game"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why do scammers impersonate trusted people or organizations?",
+            "type": "multiple-choice",
+            "choices": [
+              "To make their identities easier to verify",
+              "To gain someone's trust and make their lies believable",
+              "To provide free services",
+              "To avoid communicating with victims"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which of these is commonly impersonated by scammers?",
+            "type": "multiple-choice",
+            "choices": [
+              "Banks",
+              "Government agencies",
+              "Technology companies",
+              "All of the above"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Someone calls claiming to be from the IRS and says you will be arrested unless you pay immediately. What type of scam is this?",
+            "type": "multiple-choice",
+            "choices": [
+              "Online shopping scam",
+              "Investment scam",
+              "Government imposter scam",
+              "Romance scam"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "A person receives an email claiming their computer has a virus and that a fake technician can fix it for a fee. What type of scam is this?",
+            "type": "multiple-choice",
+            "choices": [
+              "Tech support imposter scam",
+              "Charity scam",
+              "Lottery scam",
+              "Travel scam"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why are imposter scams particularly effective?",
+            "type": "multiple-choice",
+            "choices": [
+              "They always use advanced technology",
+              "They exploit people's trust in familiar people and organizations",
+              "They only target people who have never used computers",
+              "They cannot be detected"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "According to the FTC's 2024 fraud data, which was the most commonly reported fraud category?",
+            "type": "multiple-choice",
+            "choices": [
+              "Travel scams",
+              "Lottery scams",
+              "Imposter scams",
+              "Charity scams"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Approximately how many imposter scam reports did the FTC receive in 2024?",
+            "type": "multiple-choice",
+            "choices": [
+              "50,000",
+              "200,000",
+              "500,000",
+              "845,806"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Approximately how much money did Americans report losing to imposter scams in 2024?",
+            "type": "multiple-choice",
+            "choices": [
+              "$2.95 billion",
+              "$100 million",
+              "$500 million",
+              "$10 million"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is a government imposter scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "A legitimate government announcement",
+              "A scammer pretending to represent a government agency",
+              "A government employee explaining tax rules",
+              "A public service advertisement"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is a business imposter scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "A company opening a new location",
+              "A business offering a legitimate refund",
+              "A scammer pretending to represent a legitimate company",
+              "A customer writing a negative review"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "You receive a call from someone claiming to be your bank. They say your account is compromised and request your password. What should you suspect?",
+            "type": "multiple-choice",
+            "choices": [
+              "A normal security procedure",
+              "A guaranteed legitimate call",
+              "A routine bank survey",
+              "A possible bank impersonation scam"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Why might a scammer pretend to be a police officer?",
+            "type": "multiple-choice",
+            "choices": [
+              "To intimidate someone into following their demands",
+              "To provide free legal advice",
+              "To help someone file a report",
+              "To verify a driver's license"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is a family emergency imposter scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "A relative asking for normal advice",
+              "Someone pretending to be a relative in trouble and demanding money",
+              "A family member scheduling a visit",
+              "A legitimate emergency notification"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "A stranger claims to be your grandchild and says they urgently need money for bail. What should you do?",
+            "type": "multiple-choice",
+            "choices": [
+              "Send the money immediately",
+              "Give them your banking password",
+              "Contact your grandchild or another trusted family member through a known number",
+              "Keep the conversation secret"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is a romance scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "A legitimate dating service",
+              "A scam involving fake concert tickets",
+              "A scam involving counterfeit products",
+              "A scammer pretending to have romantic feelings to manipulate someone into sending money"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Why do scammers sometimes impersonate technology support employees?",
+            "type": "multiple-choice",
+            "choices": [
+              "People may trust experts to help with technical problems",
+              "Technology employees can legally request all passwords",
+              "They want to teach people programming",
+              "They are required to collect gift cards"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is a common warning sign of a fake government official?",
+            "type": "multiple-choice",
+            "choices": [
+              "They provide a publicly listed office number",
+              "They threaten immediate arrest unless you pay using an unusual method",
+              "They tell you to verify information independently",
+              "They send you to an official government website"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Why might a scammer use the name or logo of a famous company?",
+            "type": "multiple-choice",
+            "choices": [
+              "To become an official employee",
+              "To improve the company's security",
+              "To make a fraudulent message appear legitimate",
+              "To advertise a real product"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which statement about caller ID is TRUE?",
+            "type": "multiple-choice",
+            "choices": [
+              "Caller ID always identifies the real caller",
+              "Government agencies cannot be impersonated by phone",
+              "A familiar phone number proves a call is legitimate",
+              "Scammers can manipulate caller ID to make calls appear trustworthy"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Explain how an imposter scam works, including who the scammer pretends to be and what they want.",
+            "type": "open-answer",
+            "required-keywords": [
+              "pretend",
+              "trusted",
+              "identity",
+              "money",
+              "information"
+            ]
+          },
+          {
+            "question": "Name three organizations or people scammers commonly impersonate.",
+            "type": "open-answer",
+            "required-keywords": [
+              "bank",
+              "government",
+              "police",
+              "technology support",
+              "family"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "moduleTitle": "3. Why You Should Be Concerned",
+      "moduleLessons": {
+        "The Consequences of Scams": [
+          {
+            "question": "What is one possible financial consequence of falling for a scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "Losing savings or accumulating debt",
+              "Automatically receiving compensation",
+              "Getting a higher credit score",
+              "Receiving free insurance"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "How can a scam affect someone's personal information?",
+            "type": "multiple-choice",
+            "choices": [
+              "It automatically deletes their information",
+              "It can expose sensitive information that scammers may misuse",
+              "It makes all accounts more secure",
+              "It prevents identity theft"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is identity theft?",
+            "type": "multiple-choice",
+            "choices": [
+              "Forgetting someone's name",
+              "Changing your email address",
+              "Using another person's personal information without permission, often for fraud",
+              "Creating a new social media account"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which of these could happen after identity theft?",
+            "type": "multiple-choice",
+            "choices": [
+              "Fraudulent loans being opened",
+              "Unauthorized purchases",
+              "Misuse of personal accounts",
+              "All of the above"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "How might being scammed affect someone's mental or emotional well-being?",
+            "type": "multiple-choice",
+            "choices": [
+              "It may cause stress, embarrassment, anxiety, or loss of trust",
+              "It always makes them more confident",
+              "It has no possible emotional impact",
+              "It guarantees better relationships"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why should people avoid blaming scam victims?",
+            "type": "multiple-choice",
+            "choices": [
+              "Scams only target people who make mistakes",
+              "Scammers deliberately manipulate people, and anyone can be targeted",
+              "Victims are always responsible for the crime",
+              "Blaming victims prevents future scams"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Why are scams a concern for society, not just individual victims?",
+            "type": "multiple-choice",
+            "choices": [
+              "They only affect wealthy people",
+              "They are limited to online shopping",
+              "They can damage trust, harm businesses, and impose costs on communities",
+              "They make online transactions impossible"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "How might a scam affect a victim's family?",
+            "type": "multiple-choice",
+            "choices": [
+              "It can never affect anyone besides the victim",
+              "It always improves family relationships",
+              "It automatically protects family savings",
+              "It may reduce shared savings or create emotional and financial stress"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Why might someone hesitate to report a scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "They feel embarrassed or fear being judged",
+              "They enjoy losing money",
+              "They are legally forbidden to report it",
+              "Reporting automatically makes them a criminal"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Does losing money to a scam mean the victim is unintelligent?",
+            "type": "multiple-choice",
+            "choices": [
+              "Yes, always",
+              "No, scammers use deliberate psychological manipulation and deception",
+              "Only if the scam happens online",
+              "Only if the victim is young"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Why should you care about scams even if you have never been targeted?",
+            "type": "multiple-choice",
+            "choices": [
+              "Scams are becoming impossible to detect",
+              "Only your family can be affected",
+              "You or someone you know could become a target in the future",
+              "Scams only affect businesses"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What can happen when scammers obtain someone's login credentials?",
+            "type": "multiple-choice",
+            "choices": [
+              "The account becomes impossible to access",
+              "The account automatically receives extra security",
+              "The victim gets a free subscription",
+              "Scammers may access accounts and steal information or money"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Why can scams be especially damaging when victims are pressured to act quickly?",
+            "type": "multiple-choice",
+            "choices": [
+              "They may make decisions without checking whether the situation is real",
+              "They always receive better information",
+              "They gain more legal protection",
+              "They have more time to investigate"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Explain three different ways a scam can harm someone.",
+            "type": "open-answer",
+            "required-keywords": [
+              "financial",
+              "money",
+              "identity",
+              "emotional",
+              "stress",
+              "information"
+            ]
+          },
+          {
+            "question": "Why is it important to understand scams even if you have never personally experienced one?",
+            "type": "open-answer",
+            "required-keywords": [
+              "anyone",
+              "target",
+              "protect",
+              "family",
+              "prevention"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "moduleTitle": "4. Recognizing Scams",
+      "moduleLessons": {
+        "Warning Signs and Scenarios": [
+          {
+            "question": "What is a common sign of a suspicious email?",
+            "type": "multiple-choice",
+            "choices": [
+              "A message from a known contact about a normal topic",
+              "Unexpected requests for sensitive information or urgent payments",
+              "A newsletter you subscribed to",
+              "A receipt for a purchase you made"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "You receive a text saying your package cannot be delivered until you pay a small unexpected fee through a link. What should you do?",
+            "type": "multiple-choice",
+            "choices": [
+              "Click the link and enter your card information",
+              "Reply with your home address",
+              "Verify the delivery directly through the carrier's official website or app",
+              "Forward the message to everyone you know"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is a common warning sign of a fake tech support scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "An unexpected warning tells you to call a number or grant remote computer access",
+              "Your computer receives a normal software update",
+              "You contact the manufacturer's official support service",
+              "You read a troubleshooting article"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What is phishing?",
+            "type": "multiple-choice",
+            "choices": [
+              "A type of online shopping",
+              "A scam that uses deceptive messages or websites to steal information",
+              "A method of encrypting files",
+              "A legitimate banking service"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is spoofing?",
+            "type": "multiple-choice",
+            "choices": [
+              "Updating computer software",
+              "Creating a secure password",
+              "Making a communication appear to come from a different or trusted source",
+              "Blocking unwanted messages"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which of these is a suspicious payment request?",
+            "type": "multiple-choice",
+            "choices": [
+              "Paying a normal bill through an official website",
+              "Using a verified payment portal",
+              "Paying a known merchant with a credit card",
+              "Being told to pay a government fine with gift cards"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "A stranger offers you a guaranteed investment return with no risk. What should you think?",
+            "type": "multiple-choice",
+            "choices": [
+              "It is a major warning sign because legitimate investments carry risk",
+              "It is guaranteed to be legitimate",
+              "You should invest all your savings",
+              "You should share your bank password"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which statement about professional-looking scam messages is TRUE?",
+            "type": "multiple-choice",
+            "choices": [
+              "Professional design proves a message is genuine",
+              "Scam messages can look convincing and contain correct spelling and logos",
+              "Scammers cannot copy company logos",
+              "Only poorly written messages are scams"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Why is an unexpected attachment in an email potentially dangerous?",
+            "type": "multiple-choice",
+            "choices": [
+              "It always contains harmless photos",
+              "It automatically protects your computer",
+              "It may contain malware or lead to a fraudulent website",
+              "It cannot contain malicious software"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What should you do when a message says you have won a prize you never entered to win?",
+            "type": "multiple-choice",
+            "choices": [
+              "Treat it as suspicious, especially if it demands a fee or personal information",
+              "Immediately pay the processing fee",
+              "Send your Social Security number",
+              "Share your banking password"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What should you do if an online romantic partner suddenly asks for emergency money?",
+            "type": "multiple-choice",
+            "choices": [
+              "Send money immediately",
+              "Share your banking information",
+              "Be cautious, independently verify their identity, and do not send money to someone you have not reliably verified",
+              "Borrow money to help them"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is the safest response to a suspicious message asking for your Social Security number?",
+            "type": "multiple-choice",
+            "choices": [
+              "Do not provide it and independently verify the request",
+              "Send it to prove your identity",
+              "Post it in a public comment",
+              "Send it through an unverified link"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What should you do if someone pressures you to make an immediate financial decision?",
+            "type": "multiple-choice",
+            "choices": [
+              "Agree to everything",
+              "Borrow money immediately",
+              "Avoid asking questions",
+              "Pause and independently verify the request before doing anything"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "A caller says they are from the police and demands gift cards to prevent your arrest. Identify at least two warning signs.",
+            "type": "open-answer",
+            "required-keywords": [
+              "gift cards",
+              "payment",
+              "threat",
+              "urgency",
+              "impersonation"
+            ]
+          },
+          {
+            "question": "Explain why a professional-looking email or a familiar phone number does not necessarily mean a communication is legitimate.",
+            "type": "open-answer",
+            "required-keywords": [
+              "spoofing",
+              "fake",
+              "impersonation",
+              "copy",
+              "verify"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "moduleTitle": "5. Preventing and Responding to Scams",
+      "moduleLessons": {
+        "Protecting Yourself": [
+          {
+            "question": "What should you do if a caller claims to be from your bank and asks for your password?",
+            "type": "multiple-choice",
+            "choices": [
+              "Give them the password",
+              "Tell them your security questions",
+              "Transfer your money to their account",
+              "End the call and contact your bank using a trusted number"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "What is one way to check whether a suspicious phone call is genuine?",
+            "type": "multiple-choice",
+            "choices": [
+              "Trust the caller's confidence",
+              "Ask the caller to repeat their threats",
+              "Hang up and independently contact the organization through its official contact information",
+              "Give the caller your personal details"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What should you do before clicking a link in an unexpected message?",
+            "type": "multiple-choice",
+            "choices": [
+              "Click it quickly",
+              "Check the sender and destination carefully, and access the organization independently if needed",
+              "Forward it to your contacts",
+              "Enter your password first"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which of these is a good way to protect your online accounts?",
+            "type": "multiple-choice",
+            "choices": [
+              "Use the same password everywhere",
+              "Share passwords with callers",
+              "Use strong unique passwords and enable multifactor authentication",
+              "Write your passwords in public posts"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is multifactor authentication?",
+            "type": "multiple-choice",
+            "choices": [
+              "Using the same password twice",
+              "Sharing your account with several people",
+              "Changing your username",
+              "Using an additional verification method beyond just your password"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Why should you avoid reusing passwords across different accounts?",
+            "type": "multiple-choice",
+            "choices": [
+              "If one password is stolen, multiple accounts may become vulnerable",
+              "It makes your accounts easier to protect",
+              "It prevents phishing",
+              "It automatically blocks scammers"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What should you do if you accidentally click a suspicious link but do not enter any information?",
+            "type": "multiple-choice",
+            "choices": [
+              "Continue browsing the website",
+              "Close the page, avoid downloads or further interaction, and check your device if anything suspicious happened",
+              "Enter your banking password",
+              "Share the link with friends"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What should you do if you have already shared your banking password with a suspected scammer?",
+            "type": "multiple-choice",
+            "choices": [
+              "Wait several months",
+              "Ignore the situation",
+              "Immediately contact your bank through an official channel, change compromised credentials, and secure your account",
+              "Give the scammer another password"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What should you do if you have sent money to a scammer?",
+            "type": "multiple-choice",
+            "choices": [
+              "Send more money to recover it",
+              "Delete all evidence",
+              "Wait for the scammer to return it",
+              "Contact your bank or payment provider immediately and ask whether the transaction can be stopped or reversed"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Where can people in the United States report scams?",
+            "type": "multiple-choice",
+            "choices": [
+              "The Federal Trade Commission at ReportFraud.ftc.gov",
+              "A random social media account",
+              "An unverified website",
+              "The scammer's phone number"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What should you do if you suspect someone is impersonating a government official?",
+            "type": "multiple-choice",
+            "choices": [
+              "Pay immediately",
+              "Stop communicating and verify the claim using the agency's independently obtained official contact information",
+              "Provide your Social Security number",
+              "Keep the interaction secret"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Why is it important to save messages and payment records after a scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "To help the scammer",
+              "To make the scam spread faster",
+              "They may provide useful evidence when reporting the scam or contacting financial institutions",
+              "To guarantee that the money will be returned"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What should you do if a scammer threatens to release your personal information unless you pay?",
+            "type": "multiple-choice",
+            "choices": [
+              "Pay every demand",
+              "Send additional personal information",
+              "Obey without telling anyone",
+              "Do not panic or pay automatically; preserve evidence, secure accounts, and report the threat"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "What is a credit freeze?",
+            "type": "multiple-choice",
+            "choices": [
+              "A restriction that makes it harder for someone to open new credit accounts using your identity",
+              "A way to freeze your bank balance",
+              "A method of deleting your credit history",
+              "A way to stop all online purchases"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "If you suspect identity theft, which action could help protect you?",
+            "type": "multiple-choice",
+            "choices": [
+              "Ignore your credit reports",
+              "Consider placing a fraud alert or credit freeze with the credit bureaus",
+              "Share your Social Security number publicly",
+              "Close every online account without checking"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is the safest way to verify whether a family member really needs emergency money?",
+            "type": "multiple-choice",
+            "choices": [
+              "Trust any unfamiliar number claiming to be them",
+              "Send money without asking questions",
+              "Contact the family member directly using a number you already know",
+              "Ask the caller for your banking password"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Why should you talk to someone you trust when you suspect a scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "They can automatically recover every lost dollar",
+              "They are legally required to pay you back",
+              "They can guarantee the caller's identity",
+              "A second opinion can help you recognize manipulation and avoid rushed decisions"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "What is the most important thing to remember when dealing with a possible scam?",
+            "type": "multiple-choice",
+            "choices": [
+              "Pause, verify independently, and never let pressure replace careful judgment",
+              "Always trust people who sound professional",
+              "Respond to every urgent message",
+              "Give information whenever someone asks confidently"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Describe at least three steps someone should take to protect themselves from scams.",
+            "type": "open-answer",
+            "required-keywords": [
+              "verify",
+              "password",
+              "multifactor",
+              "personal information",
+              "pause",
+              "official"
+            ]
+          },
+          {
+            "question": "Imagine you accidentally sent money to someone impersonating a government official. Explain what you should do next.",
+            "type": "open-answer",
+            "required-keywords": [
+              "bank",
+              "report",
+              "evidence",
+              "FTC",
+              "contact",
+              "payment"
+            ]
           }
         ]
       }
