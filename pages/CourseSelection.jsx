@@ -64,6 +64,7 @@ function CourseSelection(){
         setError(error.message);
         setLoading(false);
       });
+    console.log(data);
   }, []);
 
   if (loading) return <p>Loading...</p>;
