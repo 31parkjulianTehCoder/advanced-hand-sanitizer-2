@@ -11,8 +11,12 @@
             "type": "multiple-choice",
             "choices": [],
             "correct": 1,
+          },
+          {
+            "question": "blah blah",
+            "type": "open-answer",
+            "required-keywords": ["blah", "blah"]
           }
-          {}
         ]
       }
     }
