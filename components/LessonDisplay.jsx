@@ -10,9 +10,6 @@ function LessonDisplay({ lesson }) {
   }
   console.log(lesson.length);
   console.log(index);
-  if (index === lesson.length - 2){
-    return <h1>Lesson complete!</h1>
-  }
   if (lesson[index].type === "multiple-choice") {
     return (
       <center>
@@ -37,5 +34,7 @@ function LessonDisplay({ lesson }) {
         </ol>
       </center>
     );
+  } else if (lesson[index].type === undefined){
+    return <h1>Lesson complete!</h1>
   }
 }
