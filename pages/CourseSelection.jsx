@@ -13,7 +13,7 @@ function CourseSelection(){
       })
       .then((json) => {
         setData((ar) => [...ar, json]);
-                console.log(data);
+                console.log(json);
         setLoading(false);
       })
       .catch((error) => {
@@ -29,7 +29,7 @@ function CourseSelection(){
         })
         .then((json) => {
           setData((ar) => [...ar, json]);
-                  console.log(data);
+                  console.log(json);
           setLoading(false);
         })
         .catch((error) => {
@@ -45,7 +45,7 @@ function CourseSelection(){
       })
       .then((json) => {
         setData((ar) => [...ar, json]);
-        console.log(data);
+        console.log(json);
         setLoading(false);
       })
       .catch((error) => {
