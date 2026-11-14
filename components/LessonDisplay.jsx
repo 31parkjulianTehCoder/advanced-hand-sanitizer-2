@@ -3,14 +3,14 @@ function LessonDisplay({ lesson }) {
   let [hearts, setHearts] = useState(3);
   if (hearts <= 0){
     
-    return <>
+    return <center>
       <h2>You ran out of hearts!</h2>
       <button onClick={() => {setIndex(0);setHearts(3);}}>start over</button>
-    </>
+    </center>
   }
   if (lesson[index].type === "multiple-choice") {
     return (
-      <>
+      <center>
         <h2>{lesson[index].question}</h2>
         {hearts} Hearts
         <ol>
@@ -30,7 +30,7 @@ function LessonDisplay({ lesson }) {
             </li>
           ))}
         </ol>
-      </>
+      </center>
     );
   }
 }
