@@ -1,0 +1,20 @@
+{
+  "courseTitle": "thing",
+  "courseDesc": "thing",
+  "courseModules": [
+    {
+      "moduleTitle": "thing",
+      "moduleLessons": {
+        "thing": [
+          {
+            "question": "blah blah",
+            "type": "multiple-choice",
+            "choices": [],
+            "correct": 1,
+          }
+          {}
+        ]
+      }
+    }
+  ]
+}
