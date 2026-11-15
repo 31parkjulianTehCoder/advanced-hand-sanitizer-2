@@ -45,7 +45,7 @@ function Onboarding(){
     return <center>
       <img src="./media/SCR-20261114-ouua.png" style={{width: "200px", height: "200px"}} />
       <p>That's all, enjoy Nullpoint!</p>
-      <button onClick={() => setPage(<CourseSelection />)}>Next</button>
+      <button onClick={() => {localStorage.setItem("nullpoint-tutorialCompleted", true); setPage(<CourseSelection />)}}>Next</button>
     </center>
   }
 }
