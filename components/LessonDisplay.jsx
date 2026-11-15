@@ -1,6 +1,12 @@
 function LessonDisplay({ lesson }) {
   let [index, setIndex] = useState(0);
   let [hearts, setHearts] = useState(3);
+  let sources = [
+    "./media/SCR-20261114-ousm.png",
+    "./media/SCR-20261114-outh.png",
+    "./media/SCR-20261114-ouua.png",
+    "./media/pngtree-potato-picture-clip-art-transparent-png-image_20422575-2005896708.png"
+  ]
   if (hearts <= 0){
     
     return <center>
@@ -13,7 +19,10 @@ function LessonDisplay({ lesson }) {
   if (lesson[index].type === "multiple-choice") {
     return (
       <center>
-        <h2>{lesson[index].question}</h2>
+        <div>
+          <img src = {sources[Math.floor(Math.random() * sources.length)]} style={{width:"200px", height:"200px"}}/>
+          <h2>{lesson[index].question}</h2>
+        </div>
         {hearts} Hearts
         <br/>
           {lesson[index].choices.map((n) => (
