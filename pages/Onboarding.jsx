@@ -10,9 +10,9 @@ function Onboarding(){
     return <center>
       <img src="./media/SCR-20261114-ouua.png" style={{width: "200px", height: "200px"}} />
       <br />
-      <div style={{display:"flex"}}>
+      <div style={{display:"flex", textAlign: "center", alignSelf: "center"}}>
         <img src="./media/SCR-20261114-outh.png" style={{width: "100px", "height": "100px"}} />
-        <img src="./media/SCR-20261114-ouua.png" style={{width: "100px", "height": "100px"}} />
+        <img src="./media/SCR-20261114-ousm.png" style={{width: "100px", "height": "100px"}} />
         <img src="./media/pngtree-potato-picture-clip-art-transparent-png-image_20422575-2005896708.png" style={{width: "100px", height: "100px"}} />
       </div>
       <br />
