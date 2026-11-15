@@ -41,7 +41,8 @@ function LessonDisplay({ lesson }) {
       </center>
     );
   } else if (lesson[index].type === undefined){
-    window.rewards = (window.rewards || 0) + 200
+    localStorage.setItem("nullpoint-pts", ((Number(localStorage.getItem("nullpoint-pts")) || 0) + 200));
+    localStorage.setItem("nullpoint-streak", 1)
     return <center>
     <h1>Lesson complete!</h1>
     </center>
