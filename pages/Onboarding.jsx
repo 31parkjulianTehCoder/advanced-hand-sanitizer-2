@@ -7,12 +7,14 @@ function Onboarding(){
       <button onClick={() => setSlide(c => c + 1)}>Next</button>
     </center>
   } else if (slide === 1){
-    return <center style={{display: "flex"}}>
+    return <center>
       <img src="./media/SCR-20261114-ouua.png" style={{width: "200px", height: "200px"}} />
       <br />
-      <img src="./media/SCR-20261114-ousm.png" style={{width: "100px", "height": "100px"}} />
-      <img src="./media/SCR-20261114-ouua.png" style={{width: "100px", "height": "100px"}} />
-      <img src="./media/pngtree-potato-picture-clip-art-transparent-png-image_20422575-2005896708.png" style={{width: "100px", height: "100px"}} />
+      <div style={{display:"flex"}}>
+        <img src="./media/SCR-20261114-outh.png" style={{width: "100px", "height": "100px"}} />
+        <img src="./media/SCR-20261114-ouua.png" style={{width: "100px", "height": "100px"}} />
+        <img src="./media/pngtree-potato-picture-clip-art-transparent-png-image_20422575-2005896708.png" style={{width: "100px", height: "100px"}} />
+      </div>
       <br />
       <p>These are my teaching assistants. You'll see them help you too.</p>
       <button onClick={() => setSlide(c => c + 1)}>Next</button>
