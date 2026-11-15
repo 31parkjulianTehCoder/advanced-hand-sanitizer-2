@@ -44,7 +44,9 @@ function LessonDisplay({ lesson }) {
     localStorage.setItem("nullpoint-pts", ((Number(localStorage.getItem("nullpoint-pts")) || 0) + 200));
     localStorage.setItem("nullpoint-streak", 1)
     return <center>
-    <h1>Lesson complete!</h1>
+      <h1>Lesson complete!</h1>
+      <p>+200 points</p>
+      <p>Streak extended!</p>
     </center>
   }
 }
