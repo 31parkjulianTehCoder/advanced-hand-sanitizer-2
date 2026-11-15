@@ -40,7 +40,7 @@ function LessonDisplay({ lesson }) {
           ))}
       </center>
     );
-  } else if (lesson[index].type === undefined){
+  } else {
     localStorage.setItem("nullpoint-pts", ((Number(localStorage.getItem("nullpoint-pts")) || 0) + 200));
     localStorage.setItem("nullpoint-streak", 1)
     return <center>
