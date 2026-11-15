@@ -1,5 +1,15 @@
 function Onboarding(){
   let [slide, setSlide] = useState(0);
+  if (localStorage.getItem("nullpoint-tutorialCompleted") === true){
+    return <center>
+      <button onClick={() => setPage(<CourseSelection />)}>Click here to continue</button>
+      <button onClick={() => {
+        localStorage.setItem("nullpoint-tutorialCompleted", false);
+        localStorage.setItem("nullpoint-pts", 0);
+        localStorage.setItem("nullpoint-streak", 0);
+      }}>Reset data</button>
+    </center>
+  }
   if (slide === 0){
     return <center>
       <img src="./media/SCR-20261114-ouua.png" style={{width: "200px", height: "200px"}} />
