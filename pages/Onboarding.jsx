@@ -1,6 +1,6 @@
 function Onboarding(){
   let [slide, setSlide] = useState(0);
-  if (localStorage.getItem("nullpoint-tutorialCompleted") === true){
+  if (localStorage.getItem("nullpoint-tutorialCompleted") === "true"){
     return <center>
       <button onClick={() => setPage(<CourseSelection />)}>Click here to continue</button>
       <button onClick={() => {
